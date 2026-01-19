@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "signUpTest": "npx playwright test tests/test-signup.spec.ts --config=playwright.config.js --project=Chromium"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PrithviA98/hq-ui-automation.git"
