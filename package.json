@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "signUpTest": "npx playwright test tests/test-signup.spec.ts --config=playwright.config.js --project=Chromium"
+    "signUpTest": "npx playwright test tests/test-signup.spec.ts --config=playwright.config.ts --project=Chromium"
   },
   "repository": {
     "type": "git",
