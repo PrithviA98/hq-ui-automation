@@ -1,5 +1,5 @@
-const config = require('./src/resources/config.json');
-const testData = require('./src/resources/testdata.json');
+import config from '../resources/config.json';
+import testData from '../resources/testdata.json';
 
 import { test, expect } from '@playwright/test';
 import { HomePage } from '../pages/HomePage.ts';

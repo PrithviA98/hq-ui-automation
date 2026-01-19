@@ -1,5 +1,17 @@
 {
     "name": "James",
-    "email": "test@aciworldwide.com"
-
+    "email": "test@aciworldwide.com",
+    "pageTitle": "Enter Account Information",
+    "day": "5",
+    "month": "10",
+    "year": "2000",
+    "firstName": "Test",
+    "lastName": "Name",
+    "address1": "Address 1",
+    "address2": "Address 2",
+    "country": "India",
+    "state": "Karnataka",
+    "city": "Bangalore",
+    "zipcode": "560078",
+    "mobile": "1122334455"
 }
