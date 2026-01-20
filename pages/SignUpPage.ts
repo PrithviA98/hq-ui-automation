@@ -1,6 +1,6 @@
 import { Locator, Page } from '@playwright/test';
 
-export class SignUpTestPage {
+export class SignUpPage {
     readonly page: Page;
     readonly pageTitle: Locator;
     readonly title1: Locator;
@@ -99,19 +99,11 @@ export class SignUpTestPage {
         await this.country.selectOption(country);
     }
 
-        async enterMobile(mobile: string) {
+    async enterMobile(mobile: string) {
         await this.mobile.fill(mobile);
     }
 
-async generateRandomEmailGenerator() {
-    const randomString = Math.random().toString(36).substring(2, 10);
-    return `user_${randomString}@gmail.com`;
-}
-
-// await page.get_by_placeholder("Email").fill(email);
-
     async enterCreateAccountDetails(TestData: any) {
-
         await this.enterPassword(TestData["password"]);
         await this.selectDay(TestData["day"]);
         await this.selectMonth(TestData["month"]);
@@ -126,9 +118,7 @@ async generateRandomEmailGenerator() {
         await this.enterCity(TestData["city"]);
         await this.enterZip(TestData["zipcode"]);
         await this.enterMobile(TestData["mobile"]);
-        await this.page.waitForTimeout(3000);
         await this.clickCreateAccount()
-        await this.page.waitForTimeout(10000);
     }
 
 }

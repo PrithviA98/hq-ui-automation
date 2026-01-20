@@ -1,6 +1,6 @@
 {
     "name": "James",
-    "email": "test@aciworldwide.com",
+    "password": "Jan@2026#*",
     "pageTitle": "Enter Account Information",
     "day": "5",
     "month": "10",
@@ -13,5 +13,6 @@
     "state": "Karnataka",
     "city": "Bangalore",
     "zipcode": "560078",
-    "mobile": "1122334455"
+    "mobile": "1122334455",
+    "successMessage": "Account Created!"
 }
